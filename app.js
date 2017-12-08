@@ -7,3 +7,6 @@ oEmitter.on('click', function(){
 });
 
 oEmitter.emit('click');
+
+
+
