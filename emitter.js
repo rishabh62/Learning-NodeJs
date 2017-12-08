@@ -1,3 +1,5 @@
+//My own simple implementation of event emitter in nodeJs to understand how it actually works
+
 function Emitter(){
     this.events = {}; 
 }
@@ -14,3 +16,5 @@ Emitter.prototype.emit = function(event_type){
         }, this);
     }
 }
+
+module.exports = Emitter;
